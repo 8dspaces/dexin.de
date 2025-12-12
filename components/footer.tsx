@@ -12,13 +12,7 @@ export function Footer({ t }: FooterProps) {
         <div className="grid gap-8 md:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <Image
-                src={`${process.env.NODE_ENV === 'production' ? '/dexin.de' : ''}/logo.png`}
-                alt="一德一信"
-                width={50}
-                height={50}
-                className="object-contain"
-              />
+              <Image src="/logo.png" alt="一德一信" width={50} height={50} className="object-contain" />
               <div className="flex flex-col">
                 <span className="text-lg font-bold text-gray-900">一德一信</span>
                 <span className="text-xs text-gray-600">YIDEYIXIN</span>

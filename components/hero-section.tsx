@@ -49,7 +49,7 @@ export function HeroSection({ t }: HeroSectionProps) {
               ))}
             </div>
             <Image
-              src={`${process.env.NODE_ENV === 'production' ? '/dexin.de' : ''}/germany-healthcare-professionals-hospital.jpg`}
+              src="/germany-healthcare-professionals-hospital.jpg"
               alt="Healthcare professionals in Germany"
               width={1200}
               height={800}

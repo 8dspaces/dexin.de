@@ -21,7 +21,7 @@ export function TrackSection({ t }: TrackSectionProps) {
               ))}
             </div>
             <Image
-              src={`${process.env.NODE_ENV === 'production' ? '/dexin.de' : ''}/smiling-healthcare-professional-with-tablet.jpg`}
+              src="/smiling-healthcare-professional-with-tablet.jpg"
               alt="Healthcare professional"
               width={1200}
               height={800}
