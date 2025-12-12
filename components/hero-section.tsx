@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import Image from "next/image"
 
 interface HeroSectionProps {
   t: (key: string) => string
@@ -47,10 +48,13 @@ export function HeroSection({ t }: HeroSectionProps) {
                 </div>
               ))}
             </div>
-            <img
+            <Image
               src="/germany-healthcare-professionals-hospital.jpg"
               alt="Healthcare professionals in Germany"
+              width={1200}
+              height={800}
               className="relative z-10 w-full rounded-2xl object-cover shadow-2xl"
+              priority
             />
             <div className="absolute -right-8 bottom-8 rounded-xl bg-white p-6 shadow-xl">
               <div className="text-center">

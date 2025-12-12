@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 interface TrackSectionProps {
   t: (key: string) => string
 }
@@ -18,10 +20,13 @@ export function TrackSection({ t }: TrackSectionProps) {
                 </div>
               ))}
             </div>
-            <img
+            <Image
               src="/smiling-healthcare-professional-with-tablet.jpg"
               alt="Healthcare professional"
+              width={1200}
+              height={800}
               className="relative z-10 w-full rounded-2xl object-cover shadow-2xl"
+              priority
             />
           </div>
 
