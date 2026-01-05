@@ -36,11 +36,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const enableAnalytics = process.env.NEXT_PUBLIC_ENABLE_VERCEL_ANALYTICS === "true"
   return (
     <html lang="zh" suppressHydrationWarning>
       <body className={`font-sans antialiased`} suppressHydrationWarning>
         {children}
-        <Analytics />
+        {enableAnalytics && <Analytics />}
       </body>
     </html>
   )
