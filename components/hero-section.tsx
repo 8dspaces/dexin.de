@@ -39,7 +39,7 @@ export function HeroSection({ t }: HeroSectionProps) {
           </div>
 
           <div className="relative">
-            <div className="absolute -left-4 top-1/4 flex flex-col gap-3">
+            {/* <div className="absolute -left-4 top-1/4 flex flex-col gap-3">
               {[...Array(3)].map((_, i) => (
                 <div key={i} className="flex gap-2">
                   {[...Array(3)].map((_, j) => (
@@ -47,7 +47,7 @@ export function HeroSection({ t }: HeroSectionProps) {
                   ))}
                 </div>
               ))}
-            </div>
+            </div> */}
             <Image
               src="/germany-healthcare-professionals-hospital.jpg"
               alt="Healthcare professionals in Germany"
@@ -56,12 +56,12 @@ export function HeroSection({ t }: HeroSectionProps) {
               className="relative z-10 w-full rounded-2xl object-cover shadow-2xl"
               priority
             />
-            <div className="absolute -right-8 bottom-8 rounded-xl bg-white p-6 shadow-xl">
+            {/* <div className="absolute right-4 bottom-4 sm:right-8 sm:bottom-8 z-20 rounded-xl bg-white/90 backdrop-blur-sm p-4 sm:p-6 shadow-xl ring-1 ring-blue-100">
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-600">一德一信</div>
                 <p className="text-xs text-gray-600 mt-1">YIDEYIXIN</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
