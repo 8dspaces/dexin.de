@@ -11,15 +11,15 @@ export const translations = {
     "nav.consultation": "免费咨询",
 
     // Hero Section
-    "hero.title": "赴德医护的靠谱选择",
-    "hero.subtitle": "专业护理人才赴德工作全流程服务，从咨询到入职，清晰、透明、可靠",
+    "hero.title": "国际医护职业路径设计机构",
+    "hero.subtitle": "以德国国家医护与养老体系为载体，为学生设计 5–10 年国际医护职业路径",
     "hero.cta1": "了解流程",
     "hero.cta2": "立即咨询",
     "hero.companyName": "上海一德一信咨询管理有限公司",
 
     // Process Section
     "process.title": "服务流程",
-    "process.subtitle": "从咨询到入职：清晰、透明、可靠的全流程概览",
+    "process.subtitle": "路径清晰、阶段明确：从报名到入职的关键步骤概览",
     "process.step1.title": "报名咨询",
     "process.step1.desc": "提交报名材料，进行德语水平评估。",
     "process.step2.title": "德语学习与材料准备",
@@ -34,34 +34,34 @@ export const translations = {
     "process.step6.desc": "获得签证，安排赴德行程，享受落地安置服务。",
 
     // Why Choose Us
-    "why.title": "为什么选择我们",
-    "why.professional.title": "专业团队",
-    "why.professional.desc": "拥有丰富德国医护领域经验的专业顾问团队",
-    "why.transparent.title": "流程透明",
-    "why.transparent.desc": "从咨询到入职全流程可视化跟踪，每一步清晰可见",
-    "why.reliable.title": "靠谱保障",
-    "why.reliable.desc": "与德国政府及医疗机构官方合作，确保项目可靠性",
-    "why.support.title": "全程支持",
-    "why.support.desc": "提供德语培训、签证办理、落地安置等全方位支持服务",
+    "why.title": "我们的定位与承诺",
+    "why.professional.title": "长期责任",
+    "why.professional.desc": "以德国医护与养老体系为载体，专注 5–10 年职业路径设计",
+    "why.transparent.title": "路径清晰",
+    "why.transparent.desc": "阶段目标明确、过程可视化跟踪，成果可沉淀与跃迁",
+    "why.reliable.title": "制度通道",
+    "why.reliable.desc": "对接德国 Fachkräfte 制度与官方机构，保障通道与合规性",
+    "why.support.title": "全程伙伴",
+    "why.support.desc": "不是中介，提供培训、认证、就业到晋升的连续支持",
 
     // Services Highlight
-    "services.title": "核心服务",
-    "services.german.title": "德语培训",
-    "services.german.desc": "专业德语课程，从零基础到B2水平",
-    "services.matching.title": "雇主匹配",
-    "services.matching.desc": "精准匹配德国医疗机构，安排面试",
-    "services.visa.title": "签证服务",
-    "services.visa.desc": "专业签证材料准备与面签培训指导",
-    "services.settlement.title": "落地安置",
-    "services.settlement.desc": "抵达德国后的住宿、入职等全方位协助",
+    "services.title": "路径支撑服务",
+    "services.german.title": "德语能力",
+    "services.german.desc": "系统化德语训练，支撑海外体系内学习与成长",
+    "services.matching.title": "机构匹配",
+    "services.matching.desc": "围绕职业路径精准匹配雇主与培训机构",
+    "services.visa.title": "签证与合规",
+    "services.visa.desc": "合规材料准备与面试训练，降低路径阻力",
+    "services.settlement.title": "到德安置",
+    "services.settlement.desc": "住宿、入职与落地协同，促进能力沉淀与跃迁",
 
     // CTA Section
-    "cta.title": "开启您的德国职业发展之旅",
-    "cta.subtitle": "立即联系我们，获取专业的赴德医护咨询服务",
+    "cta.title": "开启您的国际医护职业路径之旅",
+    "cta.subtitle": "联系一德一信，获取 5–10 年职业路径规划与落地服务",
     "cta.button": "免费咨询",
 
     // Footer
-    "footer.company": "上海一德一信咨询管理有限公司",
+    "footer.company": "一德一信 · 国际医护职业路径设计机构",
     "footer.services": "服务项目",
     "footer.about": "关于我们",
     "footer.contact": "联系我们",
@@ -87,16 +87,16 @@ export const translations = {
     "nav.consultation": "Free Consultation",
 
     // Hero Section
-    "hero.title": "Your Reliable Choice for Healthcare Career in Germany",
+    "hero.title": "International Healthcare Career Path Design Institute",
     "hero.subtitle":
-      "Full-service support for nursing professionals going to Germany, from consultation to employment - clear, transparent, reliable",
+      "Leveraging Germany’s healthcare and eldercare system to design 5–10 year international healthcare career pathways",
     "hero.cta1": "View Process",
     "hero.cta2": "Contact Now",
     "hero.companyName": "Shanghai Yideyixin Consulting Management Co., Ltd.",
 
     // Process Section
     "process.title": "Our Process",
-    "process.subtitle": "From consultation to employment: Clear, transparent, reliable full-process overview",
+    "process.subtitle": "Clear stages: a concise overview from registration to onboarding",
     "process.step1.title": "Registration & Consultation",
     "process.step1.desc": "Submit application materials and German language assessment.",
     "process.step2.title": "German Learning & Document Preparation",
@@ -112,34 +112,34 @@ export const translations = {
     "process.step6.desc": "Obtain visa, arrange travel to Germany, enjoy settlement services.",
 
     // Why Choose Us
-    "why.title": "Why Choose Us",
-    "why.professional.title": "Professional Team",
-    "why.professional.desc": "Experienced consultants in German healthcare sector",
-    "why.transparent.title": "Transparent Process",
-    "why.transparent.desc": "Full-process visualization tracking, every step is clear",
-    "why.reliable.title": "Reliable Guarantee",
-    "why.reliable.desc": "Official partnership with German government and healthcare institutions",
-    "why.support.title": "Full Support",
-    "why.support.desc": "Comprehensive support including German training, visa processing, settlement services",
+    "why.title": "Our Positioning & Commitment",
+    "why.professional.title": "Long‑term Responsibility",
+    "why.professional.desc": "Built on Germany’s healthcare and eldercare system; focused on 5–10 year path design",
+    "why.transparent.title": "Clear Path",
+    "why.transparent.desc": "Stage goals, visual tracking, and accumulative outcomes for progression",
+    "why.reliable.title": "Institutional Channel",
+    "why.reliable.desc": "Aligned with Germany’s Fachkräfte program and official institutions",
+    "why.support.title": "End‑to‑End Partner",
+    "why.support.desc": "Not an agency; continuous support across training, certification, employment, and promotion",
 
     // Services Highlight
-    "services.title": "Core Services",
-    "services.german.title": "German Language Training",
-    "services.german.desc": "Professional German courses from beginner to B2 level",
-    "services.matching.title": "Employer Matching",
-    "services.matching.desc": "Precise matching with German healthcare facilities, arrange interviews",
-    "services.visa.title": "Visa Services",
-    "services.visa.desc": "Professional visa document preparation and interview training guidance",
-    "services.settlement.title": "Settlement Services",
-    "services.settlement.desc": "Comprehensive assistance with accommodation, employment after arrival in Germany",
+    "services.title": "Pathway Support Services",
+    "services.german.title": "German Proficiency",
+    "services.german.desc": "Systematic language training for in‑system learning and growth",
+    "services.matching.title": "Institution Matching",
+    "services.matching.desc": "Employer and training alignment around the defined career pathway",
+    "services.visa.title": "Visa & Compliance",
+    "services.visa.desc": "Compliant document preparation and interview training to reduce friction",
+    "services.settlement.title": "Arrival & Onboarding",
+    "services.settlement.desc": "Accommodation and onboarding coordination to accelerate capability progression",
 
     // CTA Section
-    "cta.title": "Start Your German Healthcare Career Journey",
-    "cta.subtitle": "Contact us now for professional consultation on working in Germany as a healthcare professional",
+    "cta.title": "Start Your International Healthcare Path Journey",
+    "cta.subtitle": "Contact Yideyixin for 5–10 year career pathway planning and delivery",
     "cta.button": "Free Consultation",
 
     // Footer
-    "footer.company": "Shanghai Yideyixin Consulting Management Co., Ltd.",
+    "footer.company": "Yide Yixin Consulting & Management Group",
     "footer.services": "Services",
     "footer.about": "About",
     "footer.contact": "Contact",
@@ -167,7 +167,7 @@ export const translations = {
     // Hero Section
     "hero.title": "Ihre zuverlässige Wahl für Pflegekarriere in Deutschland",
     "hero.subtitle":
-      "Vollständiger Service für Pflegefachkräfte nach Deutschland, von Beratung bis Beschäftigung - klar, transparent, zuverlässig",
+      "Auf Basis des deutschen Gesundheits- und Pflegesystems gestalten wir 5–10‑jährige internationale Pflegekarrierepfade",
     "hero.cta1": "Prozess ansehen",
     "hero.cta2": "Jetzt kontaktieren",
     "hero.companyName": "Shanghai Yideyixin Consulting Management Co., Ltd.",

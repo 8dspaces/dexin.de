@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "一德一信 - 赴德医护的靠谱选择 | Yideyixin Healthcare Recruitment",
+  title: "一德一信｜国际医护职业路径设计机构 | Yide Yixin Consulting & Management Group",
   description:
-    "上海一德一信咨询管理有限公司专业提供护理人才赴德工作全流程服务，从咨询到入职，清晰、透明、可靠。Professional service for nursing professionals going to Germany - from consultation to employment.",
+    "以德国国家医护与养老体系为载体，为学生设计 5–10 年国际医护职业路径：海外体系内成长 + 中长期职业升级。",
   generator: "v0.app",
   icons: {
     icon: [

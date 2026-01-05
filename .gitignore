@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+/doc
 
 old_DEPLOY.md
 # testing
