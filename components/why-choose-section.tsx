@@ -1,11 +1,11 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Award, CheckCircle2, Shield, HeadphonesIcon } from "lucide-react"
+import { useLanguage } from "@/lib/i18n"
 
-interface WhyChooseSectionProps {
-  t: (key: string) => string
-}
-
-export function WhyChooseSection({ t }: WhyChooseSectionProps) {
+export function WhyChooseSection() {
+  const { t } = useLanguage()
   const reasons = [
     {
       icon: Award,

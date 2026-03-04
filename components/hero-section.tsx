@@ -1,12 +1,13 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
+import { useLanguage } from "@/lib/i18n"
 
-interface HeroSectionProps {
-  t: (key: string) => string
-}
-
-export function HeroSection({ t }: HeroSectionProps) {
+export function HeroSection() {
+  const { t } = useLanguage()
   return (
     <section id="home" className="relative bg-gradient-to-br from-blue-50 via-white to-amber-50 overflow-hidden">
       <div className="container mx-auto px-4 py-16 lg:py-24">
@@ -23,18 +24,22 @@ export function HeroSection({ t }: HeroSectionProps) {
             </div>
 
             <div className="flex flex-col gap-4 sm:flex-row">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white gap-2 group">
-                {t("hero.cta1")}
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 gap-2 group bg-transparent"
-              >
-                {t("hero.cta2")}
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
+              <Link href="/program">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white gap-2 group">
+                  {t("hero.cta1")}
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
+              <Link href="/contact">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 gap-2 group bg-transparent"
+                >
+                  {t("hero.cta2")}
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
             </div>
           </div>
 

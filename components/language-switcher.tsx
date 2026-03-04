@@ -3,12 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Globe } from "lucide-react"
-import type { Language } from "@/lib/i18n"
-
-interface LanguageSwitcherProps {
-  currentLang: Language
-  onLanguageChange: (lang: Language) => void
-}
+import { useLanguage } from "@/lib/i18n"
 
 const languages = {
   en: { label: "English", flag: "🇬🇧" },
@@ -16,19 +11,21 @@ const languages = {
   zh: { label: "中文", flag: "🇨🇳" },
 }
 
-export function LanguageSwitcher({ currentLang, onLanguageChange }: LanguageSwitcherProps) {
+export function LanguageSwitcher() {
+  const { lang, setLang } = useLanguage()
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="sm" className="gap-2 bg-transparent">
           <Globe className="h-4 w-4" />
-          <span className="hidden sm:inline">{languages[currentLang].label}</span>
-          <span className="sm:hidden">{languages[currentLang].flag}</span>
+          <span className="hidden sm:inline">{languages[lang].label}</span>
+          <span className="sm:hidden">{languages[lang].flag}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         {Object.entries(languages).map(([code, { label, flag }]) => (
-          <DropdownMenuItem key={code} onClick={() => onLanguageChange(code as Language)} className="gap-2">
+          <DropdownMenuItem key={code} onClick={() => setLang(code as any)} className="gap-2">
             <span>{flag}</span>
             <span>{label}</span>
           </DropdownMenuItem>

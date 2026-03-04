@@ -1,11 +1,11 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { FileText, GraduationCap, Briefcase, FileCheck, Plane } from "lucide-react"
+import { useLanguage } from "@/lib/i18n"
 
-interface ProcessSectionProps {
-  t: (key: string) => string
-}
-
-export function ProcessSection({ t }: ProcessSectionProps) {
+export function ProcessSection() {
+  const { t } = useLanguage()
   const steps = [
     {
       number: "1",

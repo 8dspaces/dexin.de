@@ -1,11 +1,11 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Languages, Users, FileText, Home } from "lucide-react"
+import { useLanguage } from "@/lib/i18n"
 
-interface ServicesSectionProps {
-  t: (key: string) => string
-}
-
-export function ServicesSection({ t }: ServicesSectionProps) {
+export function ServicesSection() {
+  const { t } = useLanguage()
   const services = [
     {
       icon: Languages,
