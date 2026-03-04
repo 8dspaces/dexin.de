@@ -92,9 +92,9 @@ export const zhTranslations = {
   "footer.address": "地址: 上海",
   "footer.rights": "© 2024 一德一信 版权所有",
   "footer.followUs": "关注我们",
-  "footer.wechat": "微信",
+  "footer.wechat": "微信公众号",
   "footer.xiaohongshu": "小红书",
-  "footer.website": "官网",
+  "footer.website": "手机官网",
   "footer.germany": "德国通道",
 
   // ============================================
