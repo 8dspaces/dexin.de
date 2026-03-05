@@ -15,6 +15,7 @@ export const zhTranslations = {
   "nav.germany": "德国通道",
   "nav.cases": "成功案例",
   "nav.news": "新闻动态",
+  "nav.partners": "合作单位",
   // Dropdown items
   "nav.about.company": "公司介绍",
   "nav.about.team": "核心团队",

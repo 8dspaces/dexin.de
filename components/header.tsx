@@ -29,7 +29,6 @@ export function Header() {
   const aboutDropdownItems = [
     { href: "/about/company", key: "nav.about.company" },
     { href: "/about/team", key: "nav.about.team" },
-    { href: "/about/partners", key: "nav.about.partners" },
   ]
 
   const programDropdownItems = [
@@ -43,11 +42,11 @@ export function Header() {
     { href: "/germany/benefits", key: "nav.germany.benefits" },
   ]
 
-  // Desktop nav order: Home, Program, Germany, Cases, About, Contact
+  // Desktop nav order: Home, Program, Germany, Partners, About, Contact
   const homeNav = { href: "/", key: "nav.home" }
   const programNav = { href: "/program/dual-system", key: "nav.program" }
   const germanyNav = { href: "/germany/overview", key: "nav.germany" }
-  const casesNav = { href: "/cases", key: "nav.cases" }
+  const partnersNav = { href: "/partners", key: "nav.partners" }
   const aboutNav = { href: "/about/company", key: "nav.about" }
   const contactNav = { href: "/contact", key: "nav.contact" }
 
@@ -123,14 +122,14 @@ export function Header() {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          {/* Cases */}
+          {/* Partners */}
           <Link
-            href={casesNav.href}
+            href={partnersNav.href}
             className={`px-3 py-2 text-sm font-medium transition-colors rounded-md ${
-              isActive(casesNav.href) ? "text-blue-600 bg-blue-50" : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+              isActive(partnersNav.href) ? "text-blue-600 bg-blue-50" : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
             }`}
           >
-            {t(casesNav.key as any)}
+            {t(partnersNav.key as any)}
           </Link>
 
           {/* About Dropdown */}
@@ -226,16 +225,16 @@ export function Header() {
               ))}
             </div>
 
-            {/* Cases */}
+            {/* Partners */}
             <div className="border-t my-2 pt-2">
               <Link
-                href={casesNav.href}
+                href={partnersNav.href}
                 onClick={() => setMobileMenuOpen(false)}
                 className={`px-3 py-2 text-sm font-medium transition-colors rounded-md block ${
-                  isActive(casesNav.href) ? "text-blue-600 bg-blue-50" : "text-gray-700"
+                  isActive(partnersNav.href) ? "text-blue-600 bg-blue-50" : "text-gray-700"
                 }`}
               >
-                {t(casesNav.key as any)}
+                {t(partnersNav.key as any)}
               </Link>
             </div>
 

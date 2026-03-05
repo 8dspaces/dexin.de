@@ -15,6 +15,7 @@ export const enTranslations = {
   "nav.germany": "Germany",
   "nav.cases": "Success Stories",
   "nav.news": "News",
+  "nav.partners": "Partners",
   // Dropdown items
   "nav.about.company": "Company",
   "nav.about.team": "Team",
