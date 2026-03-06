@@ -13,12 +13,6 @@ export default function ProgramTop10Page() {
       linkUrl: "https://vietnam.ahk.de/",
     },
     {
-      name: t("program.top10.country.syria"),
-      value: 6800,
-      linkLabel: t("program.top10.link.syria.label"),
-      linkUrl: "https://www.unhcr.org/syria",
-    },
-    {
       name: t("program.top10.country.ukraine"),
       value: 5800,
       linkLabel: t("program.top10.link.ukraine.label"),
@@ -60,20 +54,6 @@ export default function ProgramTop10Page() {
       linkUrl: "https://serbien.ahk.de/",
       linkDesc: t("program.top10.link.serbia.desc"),
     },
-    {
-      name: t("program.top10.country.afghanistan"),
-      value: 2500,
-      linkLabel: t("program.top10.link.afghanistan.label"),
-      linkUrl: "https://afghanistan.iom.int/",
-      linkDesc: t("program.top10.link.afghanistan.desc"),
-    },
-    {
-      name: t("program.top10.country.iraq"),
-      value: 2300,
-      linkLabel: t("program.top10.link.iraq.label"),
-      linkUrl: "https://www.undp.org/iraq",
-      linkDesc: t("program.top10.link.iraq.desc"),
-    },
   ]
 
   const maxValue = Math.max(...data.map((item) => item.value))
@@ -92,14 +72,14 @@ export default function ProgramTop10Page() {
 
         <div className="max-w-5xl mx-auto space-y-10">
           <div className="rounded-2xl border bg-white shadow-sm p-6 md:p-8">
-            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between mb-6">
+            {/* <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between mb-6">
               <h2 className="text-xl font-semibold text-gray-900">{t("program.top10.chart.title")}</h2>
               <span className="text-sm text-gray-500">{t("program.top10.chart.unitLabel")}</span>
-            </div>
+            </div> */}
             <div className="space-y-4">
               {data.map((item, index) => (
-                <div key={item.name} className="grid grid-cols-12 gap-3 items-center">
-                  <div className="col-span-12 sm:col-span-3 text-sm font-medium text-gray-700">
+                <div key={item.name} className="grid grid-cols-12 gap-2 items-center">
+                  <div className="col-span-10 sm:col-span-2 text-sm font-medium text-gray-700">
                     <Tooltip>
                       <TooltipTrigger asChild>
                         <a

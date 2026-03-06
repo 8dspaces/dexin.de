@@ -13,19 +13,19 @@ export function ChinaAdvantagesSection() {
       icon: Network,
       title: t("home.china.domestic.title"),
       description: t("home.china.domestic.desc"),
-      image: "/mock/scene-cn-training.svg",
+      image: "/中国医护培训.jpg",
     },
     {
       icon: Globe2,
       title: t("home.china.germany.title"),
       description: t("home.china.germany.desc"),
-      image: "/mock/scene-de-hospital.svg",
+      image: "/德国医院.jpg",
     },
     {
       icon: Users,
       title: t("home.china.longterm.title"),
       description: t("home.china.longterm.desc"),
-      image: "/mock/scene-consultation.svg",
+      image: "/咨询图片.jpg",
     },
   ]
 
