@@ -26,7 +26,7 @@ const LanguageContext = createContext<LanguageContextValue | null>(null)
 const STORAGE_KEY = "dexin-lang"
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Language>("zh")
+  const [lang, setLangState] = useState<Language>("de")
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
