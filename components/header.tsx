@@ -33,7 +33,7 @@ export function Header() {
 
   const programDropdownItems = [
     { href: "/program/dual-system", key: "nav.program.dualsystem" },
-    { href: "/program/audience", key: "nav.program.audience" },
+    { href: "/program/top10", key: "nav.program.top10" },
   ]
 
   const germanyDropdownItems = [

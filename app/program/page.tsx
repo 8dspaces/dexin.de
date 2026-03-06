@@ -2,7 +2,6 @@
 
 import { useLanguage } from "@/lib/i18n"
 import { DualSystemSection } from "@/components/program/dual-system-section"
-import { TargetAudienceSection } from "@/components/program/target-audience-section"
 
 export default function ProgramPage() {
   const { t } = useLanguage()
@@ -18,7 +17,6 @@ export default function ProgramPage() {
       </div>
 
       <DualSystemSection />
-      <TargetAudienceSection />
     </div>
   )
 }
