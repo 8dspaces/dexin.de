@@ -15,7 +15,7 @@ export const deTranslations = {
   "nav.germany": "Deutschland",
   "nav.cases": "Erfolgsgeschichten",
   "nav.news": "Neuigkeiten",
-  "nav.partners": "Partner",
+  "nav.partners": "Kooperationsplattform",
   // Dropdown items
   "nav.about.company": "Unternehmen",
   "nav.about.team": "Team",
