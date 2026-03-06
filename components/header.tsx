@@ -56,8 +56,8 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo.png" alt="一德一信" width={60} height={60} className="object-contain" />
           <div className="flex flex-col">
-            <span className="text-xl font-bold text-gray-900">一德一信</span>
-            <span className="text-xs text-gray-600 hidden sm:block">YIDEYIXIN</span>
+            <span className="text-xl font-bold text-gray-900">Dexin</span>
+            <span className="text-xs text-gray-600 hidden sm:block">Dexin Carebridge</span>
           </div>
         </Link>
 
