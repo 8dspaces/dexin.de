@@ -15,17 +15,17 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <Image src="/logo.png" alt="一德一信" width={50} height={50} className="object-contain" />
+              <Image src="/logo.png" alt="Dexin CareBridge" width={50} height={50} className="object-contain" />
               <div className="flex flex-col">
-                <span className="text-lg font-bold text-gray-900">一德一信</span>
-                <span className="text-xs text-gray-500">YIDEYIXIN</span>
+                <span className="text-lg font-bold text-gray-900">Dexin CareBridge</span>
+                <span className="text-xs text-gray-500">Dexin CareBridge</span>
               </div>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">{t("footer.company")}</p>
             <div className="space-y-2 pt-2">
               <div className="flex items-center gap-2 text-sm text-gray-600">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <span>info@yideyixin.com</span>
+                <span>info@dexin-carebridge.de</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-gray-600">
                 <Phone className="h-4 w-4 flex-shrink-0" />

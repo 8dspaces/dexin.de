@@ -114,6 +114,14 @@ export default function ContactPage() {
             <Card>
               <CardContent className="p-8">
                 <h3 className="text-xl font-semibold text-gray-900 mb-6">{t("contact.info.title")}</h3>
+                <div className="mb-8 pb-6 border-b">
+                  <h4 className="font-medium text-gray-900 mb-4">{t("contact.info.deTitle")}</h4>
+                  <div className="space-y-2 text-sm text-gray-600">
+                    <p>{t("contact.info.de")}</p>
+                    <p>{t("contact.info.deEmail")}</p>
+                  </div>
+                </div>
+
                 <div className="space-y-4">
                   <div>
                     <p className="font-medium text-gray-900">{t("contact.info.company")}</p>
@@ -129,14 +137,6 @@ export default function ContactPage() {
                   <div className="flex items-start gap-3">
                     <Mail className="h-5 w-5 text-blue-600 mt-0.5" />
                     <p className="text-gray-600">{t("contact.info.email")}</p>
-                  </div>
-                </div>
-
-                <div className="mt-8 pt-6 border-t">
-                  <h4 className="font-medium text-gray-900 mb-4">{t("contact.info.deTitle")}</h4>
-                  <div className="space-y-2 text-sm text-gray-600">
-                    <p>{t("contact.info.de")}</p>
-                    <p>{t("contact.info.deEmail")}</p>
                   </div>
                 </div>
               </CardContent>

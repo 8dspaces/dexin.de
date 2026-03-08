@@ -78,7 +78,7 @@ export const enTranslations = {
   "cta.button": "Free Consultation",
 
   // Footer
-  "footer.company": "Yide Yixin Consulting & Management Group",
+  "footer.company": "Dexin Carebridge Consulting & Management Group",
   "footer.services": "Services",
   "footer.about": "About",
   "footer.contact": "Contact",
@@ -91,8 +91,8 @@ export const enTranslations = {
   "footer.cases": "Success Stories",
   "footer.email": "Email",
   "footer.phone": "Phone",
-  "footer.address": "Address: Shanghai, China",
-  "footer.rights": "© 2024 Yideyixin. All rights reserved.",
+  "footer.address": "Dexin CareBridge GmbH, Friedrichstraße 123, 10117 Berlin",
+  "footer.rights": "© 2024 Dexin Carebridge. All rights reserved.",
   "footer.followUs": "Follow Us",
   "footer.wechat": "WeChat",
   "footer.xiaohongshu": "Xiaohongshu",
@@ -228,6 +228,7 @@ export const enTranslations = {
   "program.top10.country.serbia": "Serbia",
   "program.top10.country.afghanistan": "Afghanistan",
   "program.top10.country.iraq": "Iraq",
+  "program.top10.country.greece": "Greece",
   "program.top10.link.vietnam.label": "German Chamber of Commerce (AHK) Vietnam",
   "program.top10.link.syria.label": "UNHCR Syria",
   "program.top10.link.ukraine.label": "Ukraine Vocational Education Center",
@@ -246,6 +247,8 @@ export const enTranslations = {
   "program.top10.link.afghanistan.desc": "Provides vocational training and resettlement programs to Germany for Afghan refugees.",
   "program.top10.link.iraq.label": "UNDP Iraq",
   "program.top10.link.iraq.desc": "Provides information on vocational training and dual system pathways to Germany for Iraqi youth.",
+  "program.top10.link.greece.label": "GOVET (BIBB International)",
+  "program.top10.link.greece.desc": "Dual system principles, Greek-language promo video, international cooperation projects, Greek pilot materials.",
 
   // Germany Page (for German Employers)
   "germany.title": "German Partners",
