@@ -28,8 +28,8 @@ export const enTranslations = {
   "nav.germany.benefits": "Benefits",
 
   // Hero Section
-  "hero.title": "International Healthcare Career Path Design Institute",
-  "hero.subtitle": "Leveraging Germany's healthcare and eldercare system to design 5-10 year international healthcare career pathways",
+  "hero.title": "International Nursing Talent. Long-Term. Reliable.",
+  "hero.subtitle": "Long-term partnerships delivering dependable, sustained talent supply for German healthcare.",
   "hero.cta1": "View Process",
   "hero.cta2": "Contact Now",
   "hero.companyName": "Dexin CareBridge",

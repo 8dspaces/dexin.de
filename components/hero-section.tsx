@@ -13,6 +13,7 @@ export function HeroSection() {
   const [api, setApi] = useState<CarouselApi>()
   const [activeIndex, setActiveIndex] = useState(0)
   const heroImages = [
+    { src: "/00_hero_koln.png", alt: "Cologne city view" },
     { src: "/01_hero_shanghai.jpg", alt: "Shanghai city view" },
     { src: "/02_hero_dexin.jpg", alt: "Dexin team and office" },
   ]

@@ -28,8 +28,8 @@ export const deTranslations = {
   "nav.germany.benefits": "Vorteile",
 
   // Hero Section
-  "hero.title": "Ihre zuverlässige Wahl für Pflegekarriere in Deutschland",
-  "hero.subtitle": "Auf Basis des deutschen Gesundheits- und Pflegesystems gestalten wir 5-10 jährige internationale Pflegekarrierepfade",
+  "hero.title": "Internationale Pflegefachkräfte. Langfristig. Stabil.",
+  "hero.subtitle": "Langfristige Zusammenarbeit für eine verlässliche, dauerhafte Personalversorgung im deutschen Gesundheitswesen.",
   "hero.cta1": "Prozess ansehen",
   "hero.cta2": "Jetzt kontaktieren",
   "hero.companyName": "Dexin CareBridge",
