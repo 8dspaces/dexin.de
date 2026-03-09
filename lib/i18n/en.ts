@@ -32,7 +32,7 @@ export const enTranslations = {
   "hero.subtitle": "Leveraging Germany's healthcare and eldercare system to design 5-10 year international healthcare career pathways",
   "hero.cta1": "View Process",
   "hero.cta2": "Contact Now",
-  "hero.companyName": "Shanghai Yideyixin Consulting Management Co., Ltd.",
+  "hero.companyName": "Dexin CareBridge",
 
   // Process Section
   "process.title": "Our Process",
@@ -74,7 +74,7 @@ export const enTranslations = {
 
   // CTA Section
   "cta.title": "Start Your International Healthcare Path Journey",
-  "cta.subtitle": "Contact Yideyixin for 5-10 year career pathway planning and delivery",
+  "cta.subtitle": "Contact Dexin CareBridge for 5-10 year career pathway planning and delivery",
   "cta.button": "Free Consultation",
 
   // Footer
@@ -104,7 +104,7 @@ export const enTranslations = {
   // ============================================
 
   // Homepage - China Advantages Section (NEW)
-  "home.china.title": "Why Choose Yide Yixin",
+  "home.china.title": "Why Choose Dexin CareBridge",
   "home.china.subtitle": "Based in China, Connected to Germany: China-Germany integrated services to help you progress steadily",
   "home.china.domestic.title": "China Resource Network",
   "home.china.domestic.desc": "Partnerships with nursing schools, medical colleges, and training institutions across China. Mature German language training system helping students reach A1-B2 levels. Professional team provides complete material preparation, notarization, translation, and visa guidance. China's 600,000+ nursing graduates annually ensure abundant talent reserves.",
@@ -124,7 +124,11 @@ export const enTranslations = {
   "about.tab.partners": "Partners",
 
   // About - Company Section
-  "about.company.title": "About Yide Yixin",
+  "about.company.title": "About Dexin CareBridge",
+  "about.company.intro.title": "Dexin CareBridge",
+  "about.company.intro.p1": "Dexin CareBridge is an international healthcare recruitment coordination organization based in Germany, dedicated to advancing nursing talent cooperation projects between China and Germany.",
+  "about.company.intro.p2": "We work closely with German recruitment agencies, medical institutions, and our Chinese partner Dexin Consulting to jointly advance international recruitment and cooperation programs. In China, our partner is responsible for candidate recruitment, German language training, and professional preparation; in Germany, Dexin CareBridge coordinates projects, partners, and provides support for recruitment processes.",
+  "about.company.intro.p3": "Our goal is to establish a stable, transparent, and sustainable international healthcare recruitment collaboration model that creates long-term value for medical institutions, recruitment partners, and nursing talent.",
   "about.company.positioning.title": "Our Positioning",
   "about.company.positioning.not": "We Are NOT",
   "about.company.positioning.not1": "Labor export agency",
@@ -142,6 +146,10 @@ export const enTranslations = {
   "about.photowall.item2": "Intangible Heritage Needle Technique Intensive",
   "about.photowall.item3": "Guangxi Primary Physician Training Forum",
   "about.photowall.item4": "Shen’s Gynecology Offline Workshop",
+  "about.photowall.item5": "2024 Guangdong Youth Class",
+  "about.photowall.item6": "2024 Chongqing Class",
+  "about.photowall.item7": "2024 Chongqing Dermatology Class",
+  "about.photowall.item8": "2025 Nanning Class",
 
   // About - Team Section
  "about.team.title": "Our Team",
@@ -286,7 +294,7 @@ export const enTranslations = {
   "cases.case1.edu": "Nursing secondary school",
   "cases.case1.status": "Working for 2 years, certified",
   "cases.case1.path": "German B1 → German training → Nursing home work",
-  "cases.case1.quote": "Thank you for the full support from Yideyixin. From German learning to settling in Germany, every step had professional guidance. Although the process takes time, the result is worth it.",
+  "cases.case1.quote": "Thank you for the full support from Dexin CareBridge. From German learning to settling in Germany, every step had professional guidance. Although the process takes time, the result is worth it.",
   "cases.case2.name": "Li Jianguo",
   "cases.case2.age": "32 years old",
   "cases.case2.edu": "Nursing associate degree",
@@ -310,17 +318,17 @@ export const enTranslations = {
   "news.article1.title": "Germany's nursing talent gap continues to expand",
   "news.article1.desc": "According to German Federal Statistical Office data, Germany's nursing personnel demand continues to grow, with an estimated 360,000 additional nurses needed by 2030.",
   "news.article1.date": "2025-02-15",
-  "news.article2.title": "Yide Yixin establishes partnership with Charité Berlin",
-  "news.article2.desc": "Yide Yixin signed a cooperation agreement with Charité University Medical Center Berlin to jointly promote China-Germany nursing talent exchange.",
+  "news.article2.title": "Dexin CareBridge establishes partnership with Charité Berlin",
+  "news.article2.desc": "Dexin CareBridge signed a cooperation agreement with Charité University Medical Center Berlin to jointly promote China-Germany nursing talent exchange.",
   "news.article2.date": "2025-01-20",
   "news.article3.title": "German government optimizes foreign nurse recruitment policies",
   "news.article3.desc": "German Federal Cabinet passed new law to simplify qualification certification process for foreign nurses, accelerating talent recruitment.",
   "news.article3.date": "2025-01-10",
-  "news.article4.title": "Yide Yixin's third group of students successfully depart for Germany",
-  "news.article4.desc": "Yide Yixin successfully helped 28 students arrive in Germany to begin dual system nursing training.",
+  "news.article4.title": "Dexin CareBridge's third group of students successfully depart for Germany",
+  "news.article4.desc": "Dexin CareBridge successfully helped 28 students arrive in Germany to begin dual system nursing training.",
   "news.article4.date": "2024-12-25",
   "news.article5.title": "German training courses fully upgraded",
-  "news.article5.desc": "Yideyixin's German training courses fully upgraded, adding online B2 intensive course to provide more flexible learning options for students.",
+  "news.article5.desc": "Dexin CareBridge's German training courses fully upgraded, adding online B2 intensive course to provide more flexible learning options for students.",
   "news.article5.date": "2024-12-15",
   "news.article6.title": "German nursing salary benefits continue to improve",
   "news.article6.desc": "Average salaries in Germany's nursing industry continue to rise, with new nurses earning approximately €36,000 annually, and experienced nurses reaching €45,000-55,000.",

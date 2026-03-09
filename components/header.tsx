@@ -54,7 +54,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
       <div className="container mx-auto flex h-20 items-center justify-between px-4 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/logo.png" alt="一德一信" width={60} height={60} className="object-contain" />
+          <Image src="/logo.png" alt="Dexin CareBridge" width={60} height={60} className="object-contain" />
           <div className="flex flex-col">
             <span className="text-xl font-bold text-gray-900">Dexin</span>
             <span className="text-xs text-gray-600 hidden sm:block">Dexin Carebridge</span>

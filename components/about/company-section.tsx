@@ -8,22 +8,14 @@ import Image from "next/image"
 export function CompanySection() {
   const { t } = useLanguage()
   const photos = [
-    { src: "/channel/2022成都班.jpg", alt: "2022成都班" },
-    { src: "/channel/2023成都班.jpg", alt: "2023成都班" },
-    { src: "/channel/2023河北班.jpg", alt: "2023河北班" },
-    { src: "/channel/2023长沙少年班.jpg", alt: "2023长沙少年班" },
-    { src: "/channel/2024广东少年班.jpg", alt: "2024广东少年班" },
-    { src: "/channel/2024广西弟子班.jpg", alt: "2024广西弟子班" },
-    { src: "/channel/2024重庆班.jpg", alt: "2024重庆班" },
-    { src: "/channel/2024重庆皮肤班.jpg", alt: "2024重庆皮肤班" },
-    { src: "/channel/2025南宁班.jpg", alt: "2025南宁班" },
-    { src: "/channel/2025妇科班.jpg", alt: "2025妇科班" },
-    { src: "/channel/2025湖南班.jpg", alt: "2025湖南班" },
-    { src: "/channel/2025西安少年班.jpg", alt: "2025西安少年班" },
-    { src: "/channel/基层医生中医班.jpg", alt: "基层医生中医班" },
-    { src: "/channel/女科班.jpg", alt: "女科班" },
-    { src: "/channel/少年班 (4).jpg", alt: "少年班 (4)" },
-    { src: "/channel/广东中医班.jpg", alt: "广东中医班" },
+    { src: "/channel/2022成都班.jpg", alt: t("about.photowall.item1") },
+    { src: "/channel/2023成都班.jpg", alt: t("about.photowall.item2") },
+    { src: "/channel/2023河北班.jpg", alt: t("about.photowall.item3") },
+    { src: "/channel/2023长沙少年班.jpg", alt: t("about.photowall.item4") },
+    { src: "/channel/2024广东少年班.jpg", alt: t("about.photowall.item5") },
+    { src: "/channel/2024重庆班.jpg", alt: t("about.photowall.item6") },
+    { src: "/channel/2024重庆皮肤班.jpg", alt: t("about.photowall.item7") },
+    { src: "/channel/2025南宁班.jpg", alt: t("about.photowall.item8") },
   ]
 
   return (
@@ -32,8 +24,16 @@ export function CompanySection() {
         <h2 className="text-2xl font-bold text-gray-900 mb-6">{t("about.company.title")}</h2>
         <div className="prose prose-lg max-w-none text-gray-600 space-y-4">
           <p className="text-lg leading-relaxed">
-            一德一信是一家专注于中德医护职业路径设计与长期陪伴式咨询的专业机构。
-            我们所做的，不是简单地&quot;把人送出去&quot;，而是基于德国国家护理体系，帮助医护从业者看清一条合规、可持续、可长期发展的职业路径。
+            {t("about.company.intro.title")}
+          </p>
+          <p className="text-lg leading-relaxed">
+            {t("about.company.intro.p1")}
+          </p>
+          <p className="text-lg leading-relaxed">
+            {t("about.company.intro.p2")}
+          </p>
+          <p className="text-lg leading-relaxed">
+            {t("about.company.intro.p3")}
           </p>
         </div>
       </div>

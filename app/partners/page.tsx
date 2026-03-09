@@ -87,8 +87,8 @@ export default function PartnersPage() {
           </p>
           <p className="text-gray-500 max-w-4xl mx-auto">
             {lang === "zh"
-              ? "一德一信与德国及国内多家权威机构、院校、企业建立深度合作关系，共同推进中德双元制职业教育本土化落地与退役军人高质量就业工程。"
-              : "Yide Yixin has established deep cooperative relationships with multiple authoritative institutions, schools, and enterprises in Germany and China to jointly promote the localization of German dual vocational education and high-quality employment projects for veterans."}
+              ? "Dexin CareBridge 与德国及国内多家权威机构、院校、企业建立深度合作关系，共同推进中德双元制职业教育本土化落地与退役军人高质量就业工程。"
+              : "Dexin CareBridge has established deep cooperative relationships with multiple authoritative institutions, schools, and enterprises in Germany and China to jointly promote the localization of German dual vocational education and high-quality employment projects for veterans."}
           </p>
         </div>
 

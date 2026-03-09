@@ -32,7 +32,7 @@ export const deTranslations = {
   "hero.subtitle": "Auf Basis des deutschen Gesundheits- und Pflegesystems gestalten wir 5-10 jährige internationale Pflegekarrierepfade",
   "hero.cta1": "Prozess ansehen",
   "hero.cta2": "Jetzt kontaktieren",
-  "hero.companyName": "Shanghai Yideyixin Consulting Management Co., Ltd.",
+  "hero.companyName": "Dexin CareBridge",
 
   // Process Section
   "process.title": "Unser Prozess",
@@ -74,7 +74,7 @@ export const deTranslations = {
 
   // CTA Section
   "cta.title": "Starten Sie Ihren internationalen Pflegekarriere-Pfad",
-  "cta.subtitle": "Kontaktieren Sie Yideyixin für 5-10 jährige Karrierepfadplanung und Umsetzung",
+  "cta.subtitle": "Kontaktieren Sie Dexin CareBridge für 5-10 jährige Karrierepfadplanung und Umsetzung",
   "cta.button": "Kostenlose Beratung",
 
   // Footer
@@ -104,7 +104,7 @@ export const deTranslations = {
   // ============================================
 
   // Homepage - China Advantages Section (NEW)
-  "home.china.title": "Warum Yide Yixin wählen",
+  "home.china.title": "Warum Dexin CareBridge wählen",
   "home.china.subtitle": "In China ansässig, mit Deutschland verbunden: Chinesisch-deutsche integrierte Dienste für Ihre stabile Entwicklung",
   "home.china.domestic.title": "Chinesisches Ressourcennetzwerk",
   "home.china.domestic.desc": "Partnerschaften mit Pflegeschulen, medizinischen Fakultäten und Ausbildungseinrichtungen in ganz China. Ausgereiftes Deutsch-Sprachschulsystem bringt Schüler auf A1-B2-Niveau. Professionelles Team bietet vollständige Materialvorbereitung, Beglaubigung, Übersetzung und Visumsberatung. Chinas 600.000+ Pflegeabsolventen jährlich sichern reichhaltige Talentreserven.",
@@ -124,7 +124,11 @@ export const deTranslations = {
   "about.tab.partners": "Partner",
 
   // About - Company Section
-  "about.company.title": "Über Yide Yixin",
+  "about.company.title": "Über Dexin CareBridge",
+  "about.company.intro.title": "Dexin CareBridge",
+  "about.company.intro.p1": "Dexin CareBridge ist eine in Deutschland ansässige internationale Koordinationsorganisation für die Rekrutierung im Gesundheitswesen und setzt sich für Kooperationsprojekte zwischen China und Deutschland im Pflegebereich ein.",
+  "about.company.intro.p2": "Wir arbeiten eng mit deutschen Personalvermittlern, medizinischen Einrichtungen und unserem chinesischen Partner Dexin Consulting zusammen, um internationale Rekrutierungs- und Kooperationsprojekte voranzutreiben. In China übernimmt unser Partner die Kandidatenrekrutierung, Deutschtraining und berufliche Vorbereitung; in Deutschland koordiniert Dexin CareBridge die Projekte, die Zusammenarbeit und unterstützt den Rekrutierungsprozess.",
+  "about.company.intro.p3": "Unser Ziel ist ein stabiles, transparentes und nachhaltiges Kooperationsmodell für internationale Gesundheitsrekrutierung, das langfristigen Mehrwert für medizinische Einrichtungen, Rekrutierungspartner und Pflegefachkräfte schafft.",
   "about.company.positioning.title": "Unsere Positionierung",
   "about.company.positioning.not": "Wir sind NICHT",
   "about.company.positioning.not1": "Arbeitsvermittlungsagentur",
@@ -142,6 +146,10 @@ export const deTranslations = {
   "about.photowall.item2": "Intensivkurs zur traditionellen Nadellehre",
   "about.photowall.item3": "Guangxi-Forum für Basismediziner",
   "about.photowall.item4": "Shen’s Gynäkologie Präsenzkurs",
+  "about.photowall.item5": "2024 Guangdong Jugendklasse",
+  "about.photowall.item6": "2024 Chongqing Klasse",
+  "about.photowall.item7": "2024 Chongqing Dermatologie-Klasse",
+  "about.photowall.item8": "2025 Nanning Klasse",
 
   // About - Team Section
   "about.team.title": "Unser Team",
@@ -286,7 +294,7 @@ export const deTranslations = {
   "cases.case1.edu": "Pflegeschule",
   "cases.case1.status": "2 Jahre gearbeitet, zertifiziert",
   "cases.case1.path": "Deutsch B1 → Deutsche Ausbildung → Pflegeheimarbeit",
-  "cases.case1.quote": "Danke für die volle Unterstützung von Yideyixin. Von Deutschlernen bis zur Ankunft in Deutschland hatte jeder Schritt professionelle Anleitung. Obwohl der Prozess Zeit braucht, ist das Ergebnis es wert.",
+  "cases.case1.quote": "Danke für die volle Unterstützung von Dexin CareBridge. Von Deutschlernen bis zur Ankunft in Deutschland hatte jeder Schritt professionelle Anleitung. Obwohl der Prozess Zeit braucht, ist das Ergebnis es wert.",
   "cases.case2.name": "Li Jianguo",
   "cases.case2.age": "32 Jahre alt",
   "cases.case2.edu": "Pflege-Abschluss",

@@ -32,7 +32,7 @@ export const zhTranslations = {
   "hero.subtitle": "以德国国家医护与养老体系为载体，为学生设计 5–10 年国际医护职业路径",
   "hero.cta1": "了解流程",
   "hero.cta2": "立即咨询",
-  "hero.companyName": "上海一德一信咨询管理有限公司",
+  "hero.companyName": "Dexin CareBridge",
 
   // Process Section
   "process.title": "服务流程",
@@ -74,7 +74,7 @@ export const zhTranslations = {
 
   // CTA Section
   "cta.title": "开启您的国际医护职业路径之旅",
-  "cta.subtitle": "联系一德一信，获取 5–10 年职业路径规划与落地服务",
+  "cta.subtitle": "联系 Dexin CareBridge，获取 5–10 年职业路径规划与落地服务",
   "cta.button": "免费咨询",
 
   // Footer
@@ -104,7 +104,7 @@ export const zhTranslations = {
   // ============================================
 
   // Homepage - China Advantages Section (NEW)
-  "home.china.title": "为什么选择一德一信",
+  "home.china.title": "为什么选择 Dexin CareBridge",
   "home.china.subtitle": "立足中国，连接德国：中德一体化服务，助您稳健走好每一步",
   "home.china.domestic.title": "中国资源网络",
   "home.china.domestic.desc": "与国内多所护理院校、医学院、培训机构建立合作关系。拥有成熟的德语培训体系，学员可通过系统化课程达到A1-B2水平。专业团队提供全程材料准备、公证翻译、签证辅导。中国每年护理专业毕业生约60万，人才储备充足。",
@@ -124,7 +124,11 @@ export const zhTranslations = {
   "about.tab.partners": "合作伙伴",
 
   // About - Company Section
-  "about.company.title": "关于一德一信",
+  "about.company.title": "关于 Dexin CareBridge",
+  "about.company.intro.title": "Dexin CareBridge",
+  "about.company.intro.p1": "Dexin CareBridge 是一家位于德国的国际医疗招聘协调机构，致力于推动中国与德国之间的护理人才合作项目。",
+  "about.company.intro.p2": "我们与德国招聘机构、医疗机构以及中国合作伙伴 Dexin Consulting 紧密合作，共同推进护理人才的国际招聘与合作项目。在中国端，我们的合作伙伴负责候选人的招聘、德语培训及职业准备；在德国端，Dexin CareBridge 负责项目协调、合作对接以及招聘流程的组织与支持。",
+  "about.company.intro.p3": "我们的目标是建立稳定、透明且可持续的国际医疗招聘合作模式，为医疗机构、招聘合作伙伴以及护理人才创造长期价值。",
   "about.company.positioning.title": "我们的定位",
   "about.company.positioning.not": "我们不是",
   "about.company.positioning.not1": "劳务输出机构",
@@ -142,6 +146,10 @@ export const zhTranslations = {
   "about.photowall.item2": "非遗中针传承强化班",
   "about.photowall.item3": "广西基层医生培训论坛",
   "about.photowall.item4": "沈氏女科线下培训课",
+  "about.photowall.item5": "2024广东少年班",
+  "about.photowall.item6": "2024重庆班",
+  "about.photowall.item7": "2024重庆皮肤班",
+  "about.photowall.item8": "2025南宁班",
 
   // About - Team Section
   "about.team.title": "核心团队",
@@ -286,7 +294,7 @@ export const zhTranslations = {
   "cases.case1.edu": "护理中专",
   "cases.case1.status": "工作2年，已获认证",
   "cases.case1.path": "德语B1→德国培训→养老院工作",
-  "cases.case1.quote": "感谢一德一信的全程支持。从德语学习到德国落地，每一步都有专业的人指导。虽然过程需要时间，但结果是值得的。",
+  "cases.case1.quote": "感谢 Dexin CareBridge 的全程支持。从德语学习到德国落地，每一步都有专业的人指导。虽然过程需要时间，但结果是值得的。",
   "cases.case2.name": "李建国",
   "cases.case2.age": "32岁",
   "cases.case2.edu": "护理大专",
@@ -310,17 +318,17 @@ export const zhTranslations = {
   "news.article1.title": "德国护理人才缺口持续扩大",
   "news.article1.desc": "根据德国联邦统计局数据，德国护理人员需求持续增长，预计到2030年将需要额外36万名护理人员。",
   "news.article1.date": "2025-02-15",
-  "news.article2.title": "一德一信与柏林Charité建立合作关系",
-  "news.article2.desc": "一德一信与柏林Charité大学医学中心签署合作协议，共同推动中德护理人才交流。",
+  "news.article2.title": "Dexin CareBridge 与柏林 Charité 建立合作关系",
+  "news.article2.desc": "Dexin CareBridge 与柏林 Charité 大学医学中心签署合作协议，共同推动中德护理人才交流。",
   "news.article2.date": "2025-01-20",
   "news.article3.title": "德国政府优化外国护理人员引进政策",
   "news.article3.desc": "德国联邦内阁通过新法案，简化外国护理人员的资质认证流程，加速人才引进。",
   "news.article3.date": "2025-01-10",
-  "news.article4.title": "一德一信第三批学员顺利赴德",
-  "news.article4.desc": "一德一信成功帮助28名学员顺利抵达德国，开始双元制护理培训。",
+  "news.article4.title": "Dexin CareBridge 第三批学员顺利赴德",
+  "news.article4.desc": "Dexin CareBridge 成功帮助28名学员顺利抵达德国，开始双元制护理培训。",
   "news.article4.date": "2024-12-25",
   "news.article5.title": "德语培训课程全面升级",
-  "news.article5.desc": "一德一信德语培训课程全面升级，新增线上B2冲刺班，为学员提供更灵活的学习选择。",
+  "news.article5.desc": "Dexin CareBridge 德语培训课程全面升级，新增线上B2冲刺班，为学员提供更灵活的学习选择。",
   "news.article5.date": "2024-12-15",
   "news.article6.title": "德国护理薪资待遇持续提升",
   "news.article6.desc": "德国护理行业平均薪资持续上涨，新入职护士年薪约3.6万欧元，有经验者可达到4.5-5.5万欧元。",
@@ -346,7 +354,7 @@ export const zhTranslations = {
   "contact.info.company": "上海一德一信咨询管理有限公司",
   "contact.info.address": "上海市浦东新区张江高科技园区碧波路690号6楼",
   "contact.info.phone": "021-5089-7788",
-  "contact.info.email": "info@yideyixin.com",
+  "contact.info.email": "info@dexin-carebridge.cn",
   "contact.info.deTitle": "德国办公室",
   "contact.info.de": "Dexin CareBridge GmbH, Friedrichstraße 123, 10117 Berlin",
   "contact.info.deEmail": "info@dexin-carebridge.de",
