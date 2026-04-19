@@ -356,6 +356,7 @@ export const enTranslations = {
   "contact.info.phone": "13701943444",
   "contact.info.email": "info@dexin-carebridge.de",
   "contact.info.deTitle": "Germany Office",
+  "contact.info.dePhone": "+49 157 34378717",
   "contact.info.de": "Mauritiussteinweg 39 50676 Köln Deutschland",
   "contact.info.deEmail": "info@dexin-carebridge.de",
   "contact.qr.title": "Follow Us",

@@ -117,8 +117,22 @@ export default function ContactPage() {
                 <div className="mb-8 pb-6 border-b">
                   <h4 className="font-medium text-gray-900 mb-4">{t("contact.info.deTitle")}</h4>
                   <div className="space-y-2 text-sm text-gray-600">
-                    <p>{t("contact.info.de")}</p>
-                    <p>{t("contact.info.deEmail")}</p>
+                  <div className="flex items-start gap-3">
+                    <MapPin className="h-5 w-5 text-blue-600 mt-0.5" />
+                    <p className="text-gray-600">{t("contact.info.de")}</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Phone className="h-5 w-5 text-blue-600 mt-0.5" />
+                    <p className="text-gray-600">{t("contact.info.dePhone")}</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Mail className="h-5 w-5 text-blue-600 mt-0.5" />
+                    <p className="text-gray-600">{t("contact.info.deEmail")}</p>
+                  </div>
+
+
+                    {/* <p>{t("contact.info.de")}</p>
+                    <p>{t("contact.info.deEmail")}</p> */}
                   </div>
                 </div>
 
